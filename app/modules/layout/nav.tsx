@@ -19,9 +19,14 @@ export default function Nav({ regions }: { regions: StoreRegion[] }) {
           <div className="flex items-center h-full">
             <Link
               to="/"
-              className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
+              className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase flex items-center"
               data-testid="nav-store-link"
             >
+              <img
+                src="https://firebasestorage.googleapis.com/v0/b/shopable-60057.firebasestorage.app/o/stores%2Fa6ec3ce0-4a5e-4d0e-92b4-a8940b78de38%2Fimages%2Fgenerated-2c102d9c-0b32-441e-8074-f5cee8717946.png?alt=media"
+                alt="Store Logo"
+                className="h-10 w-10 mr-2 object-contain"
+              />
               Shopable Store
             </Link>
           </div>
